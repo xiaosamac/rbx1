@@ -1,0 +1,8 @@
+<launch>
+  
+ <include file="$(find rbx1_dynamixels)/launch/dynamixels.launch" />
+
+ <node pkg="rbx1_dynamixels" type="random_swing.py" name="random_swing" output="screen">
+
+ </node>
+</launch>
